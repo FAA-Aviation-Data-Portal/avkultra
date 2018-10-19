@@ -206,7 +206,7 @@ const DataLayers = ({ viewer }) => {
     <div>
       <AirportsLayer viewer={viewer} />
       <SitesLayer viewer={viewer} />
-      <AircraftReportsLayer viewer={viewer} />
+      {/* <AircraftReportsLayer viewer={viewer} /> */}
     </div>
   )
 }

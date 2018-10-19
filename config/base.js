@@ -12,10 +12,10 @@ config.environments = Object.freeze({
 config.environment = config.environments[process.env.NODE_ENV || 'local']
 
 module.exports = _.merge({}, config, {
-  fxml: {
-    host: `http://fdesjardins:${secrets.fxml.apiKey}@flightxml.flightaware.com/json/FlightXML2`,
-    username: secrets.fxml.username,
-    apiKey: secrets.fxml.apiKey
-  },
+  // fxml: {
+  //   host: `http://localhost:${secrets.fxml.apiKey}@flightxml.flightaware.com/json/FlightXML2`,
+  //   username: secrets.fxml.username,
+  //   apiKey: secrets.fxml.apiKey
+  // },
   bingMapsApiKey: secrets.bingMapsApiKey
 })

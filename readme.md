@@ -2,6 +2,12 @@
 
 Example aviation data application using Cesium
 
+npm install
+npm start
+
+
+
+Ignore below
 ## Usage
 
 ```
